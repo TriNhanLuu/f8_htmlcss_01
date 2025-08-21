@@ -111,17 +111,16 @@ a {
 }
 
 /* -------- HERO -------- */
-.hero-wrapper {
+.hero {
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
     min-height: max-content;
     position: relative;
-}
 
-.hero {
-    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
 .hero .info {
     width: 50.36%;
 }
